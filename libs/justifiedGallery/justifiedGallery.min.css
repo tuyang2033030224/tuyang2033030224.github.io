@@ -1,0 +1,102 @@
+/*!
+ * justifiedGallery - v3.7.0
+ * http://miromannino.github.io/Justified-Gallery/
+ * 版权所有 (c) 2018 Miro Mannino
+ * 在 MIT 许可下获得许可。
+ */
+.justified-画廊{
+  宽度：100%；
+  位置：相对；
+  溢出：隐藏；
+}
+.justified-gallery > a,
+.justified-gallery > div，
+.justified-gallery > 图 {
+  位置：绝对；
+  显示：内联块；
+  溢出：隐藏；
+  /* 背景：#888888；在图库加载时使用灰色占位符 waitThumbnailsLoad = false */
+  过滤器：“阿尔法（不透明度= 10）”；
+  不透明度：0.1；
+  边距：0；
+  填充：0；
+}
+.justified-gallery > a > img,
+.justified-gallery > div > img，
+.justified-gallery > 图 > img，
+.justified-gallery > a > a > img，
+.justified-gallery > div > a > img，
+.justified-gallery > 图 > a > img {
+  位置：绝对；
+  顶部：50%；
+  左：50%；
+  边距：0；
+  填充：0；
+  边界：无；
+  过滤器：“阿尔法（不透明度= 0）”；
+  不透明度：0；
+}
+.justified-gallery > a > .caption，
+.justified-gallery > div > .caption，
+.justified-gallery > 图 > .caption {
+  显示：无；
+  位置：绝对；
+  底部：0；
+  填充：5px；
+  背景色：#000000；
+  左：0；
+  右：0；
+  边距：0；
+  白颜色;
+  字体大小：12px；
+  字体粗细：300；
+  字体系列：无衬线；
+}
+.justified-gallery > a > .caption.caption-visible，
+.justified-gallery > div > .caption.caption-visible，
+.justified-gallery > 图 > .caption.caption-visible {
+  显示：初始；
+  过滤器：“阿尔法（不透明度= 70）”；
+  不透明度：0.7；
+  -webkit-transition：不透明度 500 毫秒缓入；
+  -moz-transition：不透明度 500 毫秒缓入；
+  -o-transition：不透明度 500 毫秒缓入；
+  过渡：不透明度 500 毫秒缓入；
+}
+.justified-gallery > .entry-visible {
+  过滤器：“阿尔法（不透明度= 100）”；
+  不透明度：1；
+  背景：无；
+}
+.justified-gallery > .entry-visible > img，
+.justified-gallery > .entry-visible > a > img {
+  过滤器：“阿尔法（不透明度= 100）”；
+  不透明度：1；
+  -webkit-transition：不透明度 500 毫秒缓入；
+  -moz-transition：不透明度 500 毫秒缓入；
+  -o-transition：不透明度 500 毫秒缓入；
+  过渡：不透明度 500 毫秒缓入；
+}
+.justified-gallery > .jg-filtered {
+  显示：无；
+}
+.justified-gallery > .spinner {
+  位置：绝对；
+  底部：0；
+  左边距：-24px；
+  填充：10px 0 10px 0；
+  左：50%；
+  过滤器：“阿尔法（不透明度= 100）”；
+  不透明度：1；
+  溢出：初始；
+}
+.justified-gallery > .spinner > span {
+  显示：内联块；
+  过滤器：“阿尔法（不透明度= 0）”；
+  不透明度：0；
+  宽度：8px；
+  高度：8px；
+  边距：0 4px 0 4px；
+  背景色：#000；
+  边框半径：6px；
+}

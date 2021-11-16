@@ -34,7 +34,7 @@
 }
 
 body {
-    background-image: url(../medias/src=http___pic.51yuansu.com_backgd_cover_00_05_24_5b627ff43681c.jpg!_fw_780_quality_90_unsharp_true_compress_true&refer=http___pic.51yuansu.jpg);
+    background-image: url(../medias/100.jpg);
     margin: 0;
     color: #34495e;
     overflow-x: hidden;
@@ -235,7 +235,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #c1a766 0%, #c1a766 100%);
+    background-image: linear-gradient(to right, #663300 0%, #FFFF66 100%);
+	opacity: 0.8;
 }
 
 .text-color {
@@ -243,7 +244,7 @@ mark {
 }
 
 .white-color {
-    color: #fff;
+    color: #FFF;
 }
 
 .progress-bar {
@@ -324,7 +325,7 @@ header .side-nav .mobile-head .logo-desc {
     padding-bottom: 10px;
     font-size: 0.8rem;
     line-height: 1.3rem;
-    color: #e3e3e3;
+    color: #000000;
 }
 
 header .side-nav .menu-list li {
@@ -335,13 +336,13 @@ header .side-nav .menu-list li {
 header .side-nav .menu-list a {
     height: 50px;
     line-height: 50px;
-    color: #34495e !important;
+    color: #000000 !important;
 }
 
 .mobile-menu-list a i {
     margin-left: 8px !important;
     font-size: 1.16rem;
-    color: #34495e !important;
+    color: #000000 !important;
 }
 
 header .side-nav .fa-fw {
@@ -611,6 +612,7 @@ header .go-back i {
 .dream .text {
     opacity: .6;
     font-size: 1.1rem;
+	
 }
 
 .music-player,
@@ -1178,7 +1180,7 @@ thead {
 
 .chip-container .tag-title {
     margin-bottom: 10px;
-    color: #3C4858;
+    color: #000000;
     font-size: 1.75rem;
     font-weight: 400;
 }
@@ -1556,7 +1558,7 @@ thead {
     margin-bottom: 0.1rem;
     font-size: 1.8rem;
     font-weight: 500;
-    color: #3C4858;
+    color: #000000;
 }
 
 .profile .author .career {
@@ -1617,7 +1619,7 @@ thead {
 }
 
 .my-projects .info .info-title a {
-    color: #34495e;
+    color: #000000;
 }
 
 .my-projects .info .info-desc {
