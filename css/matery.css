@@ -34,9 +34,9 @@
 }
 
 body {
-    background-image: url(../medias/100.jpg);
+    background-color: #f4f5f7;
     margin: 0;
-    color: #34495e;
+    color: #000000;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -235,8 +235,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #663300 0%, #FFFF66 100%);
-	opacity: 0.8;
+    background-image: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+    opacity: 0.8;  //透明效果 值范围 0~1，看情况自己修改
 }
 
 .text-color {
@@ -1975,7 +1975,7 @@ p.search-result-summary{
 }
 
 .menus_item_child {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, 0.8);
     width: fit-content;
     border-radius: 10px;
     -webkit-box-shadow: 0 5px 20px -4px rgba(0, 0, 0, .5);
@@ -1998,7 +1998,7 @@ p.search-result-summary{
     margin-left: -10px;
     border-width: 10px;
     border-style: solid;
-    border-color: transparent transparent rgba(255, 255, 255, .8)
+    border-color: transparent transparent rgba(255, 255, 255, 0.8)
 }
 
 .m-nav-item {
@@ -2031,7 +2031,7 @@ p.search-result-summary{
 .m-nav-show,
 .m-nav-item > a:hover {
     color: #FFF;
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .m-nav-show > a:before,

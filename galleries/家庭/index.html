@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="galleries, Edison">
+    <meta name="keywords" content="家庭, Edison">
     <meta name="description" content="留住，温度，速度，感情，和态度">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>galleries | Edison</title>
+    <title>家庭 | Edison</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -416,81 +416,45 @@
 </header>
 
     <link rel="stylesheet" href="/css/gallery.css">
+<link type="text/css" href="/libs/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link type="text/css" href="/libs/justifiedGallery/justifiedGallery.min.css" rel="stylesheet">
 
-<div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align diy-font">
-                
-                EDISON
-                
-            </div>
 
-            <div class="description center-align">
-                
-                    留住，温度，速度，感情，和态度
-                
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">家庭</h1>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
+
+<div class="container">
+    <div class="photo-wrapper">
+        
+            <div class="waterfall" id="encrypt-blog">
+                <a target="_blank" href="https://gitee.com/Edisontu/figurebed/raw/master/blog/84CCF6F31987EB84F7D5B1DB87B4BB00.jpg"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://gitee.com/Edisontu/figurebed/raw/master/blog/84CCF6F31987EB84F7D5B1DB87B4BB00.jpg"       alt=blog/84CCF6F31987EB84F7D5B1DB87B4BB00.jpg>
+    </a><a target="_blank" href="https://gitee.com/Edisontu/figurebed/raw/master/blog/490E645154C6CBE9BDC829C3F054CCFD.jpg"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://gitee.com/Edisontu/figurebed/raw/master/blog/490E645154C6CBE9BDC829C3F054CCFD.jpg"       alt=blog/490E645154C6CBE9BDC829C3F054CCFD.jpg>
+    </a>
+            </div>
+        
+    </div>
+</div>
+
+<script src="/libs/fancybox/fancybox.js"></script>
+<script src="/libs/justifiedGallery/justifiedGallery.min.js"></script>
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+
+  $("a[rel=example_group]").fancybox();
+  $("#encrypt-blog").justifiedGallery({margins: 5, rowHeight: 150});
+
 </script>
-
-
-    </div>
-</div>
-
-<main class="content">
-    <div class="container">
-        
-        
-        <div class="gallery-wrapper row">
-            
-            
-            <div class="col s6 m4 l4 xl3 gallery-box">
-                <a href="./我" class="gallery-item" data-aos="zoom-in-up">
-                     <div class="gallery-cover-box" style="background-image: url(https://gitee.com/Edisontu/figurebed/raw/master/blog/1.jpg);">
-                    </div>
-                    <p class="gallery-name">
-                        我
-                    </p>
-                </a>
-            </div>
-            
-            
-            <div class="col s6 m4 l4 xl3 gallery-box">
-                <a href="./西藏" class="gallery-item" data-aos="zoom-in-up">
-                     <div class="gallery-cover-box" style="background-image: url(https://gitee.com/Edisontu/figurebed/raw/master/blog/xz.jpg);">
-                    </div>
-                    <p class="gallery-name">
-                        西藏
-                    </p>
-                </a>
-            </div>
-            
-            
-            <div class="col s6 m4 l4 xl3 gallery-box">
-                <a href="./家庭" class="gallery-item" data-aos="zoom-in-up">
-                     <div class="gallery-cover-box" style="background-image: url(https://gitee.com/Edisontu/figurebed/raw/master/blog/84CCF6F31987EB84F7D5B1DB87B4BB00.jpg);">
-                    </div>
-                    <p class="gallery-name">
-                        家庭
-                    </p>
-                </a>
-            </div>
-            
-        </div>
-        
-    </div>
-</main>
 
     <footer class="page-footer bg-color">
     
